@@ -1,0 +1,13 @@
+# Netlify redirects file
+# Handle client-side routing for SPA
+
+# Main app routes
+/studio /index.html 200
+/library /index.html 200
+/help /index.html 200
+
+# API routes (for future features)
+/api/* /api/:splat 200
+
+# Fallback for all other routes
+/* /index.html 200
